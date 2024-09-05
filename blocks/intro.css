@@ -1,0 +1,33 @@
+.intro__tittle {
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 58px;
+  margin-top: 92px;
+  width: 830px;
+  height: 174px;
+  margin-left: 148px;
+}
+.intro__quote {
+  font-size: 24px;
+  margin-top: 40px;
+  width: 738px;
+  height: 136px;
+  margin-left: 148px;
+}
+.intro__quote-author {
+  font-size: 24px;
+  width: 732px;
+  height: 34px;
+  text-align: right;
+  margin-top: 10px;
+  position: relative;
+  left: 150px;
+}
+.intro__description {
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 148px;
+  width: 722px;
+  height: 181px;
+  margin-top: 32px;
+}

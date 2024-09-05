@@ -5,7 +5,7 @@
   width: 254px;
 }
 
-.header {
+.header__content {
   display: flex;
   align-items: center;
   flex-direction: column;

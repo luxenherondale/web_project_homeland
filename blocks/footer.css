@@ -6,3 +6,16 @@
   height: 16px;
   margin-left: 543px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    margin-left: 287px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    margin-left: 63px;
+    text-align: center;
+  }
+}

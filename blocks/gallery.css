@@ -1,0 +1,10 @@
+.gallery {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  grid-gap: 10px;
+  max-width: 1184px;
+  margin: 0;
+  margin-left: 43px;
+  padding-top: 160px;
+}

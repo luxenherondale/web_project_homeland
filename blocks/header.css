@@ -12,17 +12,18 @@
 }
 
 .header__title {
+  margin: 0;
   font-family: "Inter";
   font-size: 96px;
   font-weight: bold;
   line-height: 100px;
   max-width: 720px;
-  max-height: 200px;
   text-align: center;
   margin-top: 91px;
 }
 
 .header__subtitle {
+  margin: 0;
   font-family: "Inter";
   font-size: 30px;
   line-height: 36px;
@@ -33,7 +34,10 @@
 
 .header__image {
   max-width: 984px;
+  width: 100%;
+  height: 615px;
   margin-top: 44px;
+  box-shadow: rgba(0, 0, 0, 0.5) 10px 20px 5px 0px;
 }
 
 @media screen and (max-width: 768px) {
@@ -43,11 +47,10 @@
   }
   .header__title {
     max-width: 530px;
-    height: 158px;
+    font-size: 56px;
   }
   .header__subtitle {
     max-width: 720px;
-    height: 72px;
   }
   .header__image {
     width: 768px;
@@ -65,13 +68,11 @@
   }
   .header__title {
     max-width: 228px;
-    height: 88px;
     font-size: 40px;
     line-height: 44px;
   }
   .header__subtitle {
     max-width: 288px;
-    height: 40px;
     font-size: 16px;
     line-height: 20px;
   }

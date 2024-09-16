@@ -1,0 +1,36 @@
+.place {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.place__header {
+  display: grid;
+  grid-template-columns: 1fr auto; /* Columna flexible para el título y columna ajustable para el grupo de artista y autor */
+  align-items: center; /* Alinea los elementos verticalmente */
+  gap: 20px; /* Espacio entre las dos columnas */
+}
+.place__tittle {
+  font-family: "Inter";
+  font-size: 72px;
+  line-height: 76px;
+  max-width: 500px;
+  margin-left: 151px;
+  /* margin: 0; */
+  margin-top: 100px;
+  padding-right: 550px;
+}
+.place__artist {
+  font-size: 12px;
+}
+.place__author {
+  grid-row: 1;
+}
+.place__image {
+  max-width: 460px;
+  margin-left: 151px;
+}
+.place__description {
+  font-size: 18px;
+  max-width: 484px;
+  line-height: 29px;
+}

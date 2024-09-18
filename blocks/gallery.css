@@ -8,3 +8,19 @@
   margin-left: 43px;
   padding-top: 160px;
 }
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}

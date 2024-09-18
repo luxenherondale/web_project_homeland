@@ -1,29 +1,33 @@
 .place {
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 466px auto;
+  padding-top: 140px;
 }
 .place__header {
-  display: grid;
-  grid-template-columns: 1fr auto; /* Columna flexible para el título y columna ajustable para el grupo de artista y autor */
-  align-items: center; /* Alinea los elementos verticalmente */
-  gap: 20px; /* Espacio entre las dos columnas */
+  position: relative;
+  right: -1px;
+  align-self: center;
+  top: 28px;
 }
 .place__tittle {
   font-family: "Inter";
   font-size: 72px;
   line-height: 76px;
-  max-width: 500px;
+  justify-self: center;
   margin-left: 151px;
-  /* margin: 0; */
-  margin-top: 100px;
-  padding-right: 550px;
+  margin-bottom: 48px;
+  align-self: center;
 }
 .place__artist {
   font-size: 12px;
+  color: #aaaaaa;
+  line-height: 14px;
+  letter-spacing: 12%;
 }
 .place__author {
-  grid-row: 1;
+  font-size: 18px;
+  line-height: 22px;
 }
 .place__image {
   max-width: 460px;
@@ -33,4 +37,8 @@
   font-size: 18px;
   max-width: 484px;
   line-height: 29px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
 }

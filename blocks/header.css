@@ -37,8 +37,7 @@
   width: 100%;
   height: 615px;
   margin-top: 44px;
-
-  box-shadow: 10px 10px 25px 0px #00000080;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 768px) {

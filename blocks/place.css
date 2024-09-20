@@ -50,6 +50,7 @@
   width: 289px;
   height: 48px;
   margin-top: 33px;
+  border: none;
 }
 
 .place__button:hover {
